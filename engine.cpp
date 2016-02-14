@@ -183,6 +183,7 @@ int Engine::update()
     if(state[refl] || state[sides])
         drawModel(s, shaderMatrixL);
 
+    // remember to do this last so that it appears above the shapes
     gui.draw(state);
     if(state[19]) {
         return 1;

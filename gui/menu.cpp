@@ -2,6 +2,9 @@
 #include <zlib.h>
 #include <iostream>
 
+// menu class holds all info pertaining to a single window.
+// should be renamed to "window" in the future
+
 Menu::Menu()
 {
     image = new unsigned char[0];

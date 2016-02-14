@@ -2,7 +2,6 @@
 #define MENU_H
 
 
-class Gui;
 class Menu
 {
 public:
